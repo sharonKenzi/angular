@@ -1,0 +1,13 @@
+
+<!-- 
+<form [FormGroup]="frm1" (ngSubmit)="b()">
+    <input [FormControl]="frm1.controls['tz2']"/>
+    <input [FormControl]="frm1.controls['dt2']"/>
+    <input type="submit"/>
+</form> -->
+<div>  
+    id - <input #txt1/> &nbsp;
+    id date - <input #txt2/> 
+    <input type="button" (click)="b(txt1.value,txt2.value)" value="send"/>
+
+</div>
